@@ -1,0 +1,12 @@
+html{
+    font-family: "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB";
+}
+
+.nav li{
+    list-style: none;
+    display: inline-block;
+}
+
+.current{
+    color: #32cd32;
+}

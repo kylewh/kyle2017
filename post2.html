@@ -1,0 +1,14 @@
+---
+layout: post
+---
+
+<h1>Post2</h1>
+
+<ul>
+    {% for post in site.categories.post2 %}
+    <li>
+        <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+        <p>{{post.meta}}</p>
+    </li>
+    {% endfor%}
+</ul>
